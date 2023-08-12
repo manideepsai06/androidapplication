@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="#4AAFD6" />
+    <TextView
+        android:id="@+id/cameron"
+        style="@style/Theme.Material3.DayNight"
+        android:padding="8dp"
+        android:background="#63C0DC"
+        android:textColor="#1C1A1A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:text="Camaron"
+        android:textAllCaps="true"
+        android:textSize="70sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/userid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cameron"
+        android:layout_marginTop="19dp"
+        android:text="@string/UserID1"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/ProductId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userid"
+        android:layout_marginTop="48dp"
+        android:text="ProductID:"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/Shrimpsize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ProductId"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="71dp"
+        android:text="Shrimp Size "
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/DaysWise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Shrimpsize"
+        android:layout_marginTop="15dp"
+        android:text="Day Wise Graph"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DaysWise"
+        android:layout_marginTop="15dp"
+        android:text="Day1" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButton2"
+        android:layout_marginTop="22dp"
+        android:text="Day2" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButton3"
+        android:layout_marginTop="20dp"
+        android:text="Day3" />
+
+    <Button
+        android:id="@+id/Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioButton4"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="20sp"
+        android:text="Logout" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

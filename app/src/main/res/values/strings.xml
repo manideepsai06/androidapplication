@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CAMARON</string>
+    <string name="login">\Login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="submit">Submit</string>
+    <string name="click_to_register">click_to_register</string>
+    <string name="login1">LOGIN</string>
+    <string name="login12">LOGIN</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="register">REGISTER</string>
+    <string name="register1">REGISTER</string>
+    <string name="dont_have_an_account">Dont have an Account?</string>
+    <string name="logout">Logout</string>
+    <string name="ProductID">ProductID</string>
+    <string name="userid">userID</string>
+    <string name="UserID1">UserID:</string>
+</resources>

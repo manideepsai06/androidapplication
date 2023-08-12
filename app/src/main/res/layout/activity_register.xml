@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Login">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/login_text"
+        android:layout_width="408dp"
+        android:layout_height="258dp"
+        android:gravity="bottom"
+        android:paddingBottom="10dp"
+        android:text="@string/register1"
+
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginBottom="3dp"
+        android:layout_below="@+id/login_text"
+        android:background="@drawable/textbox_highlight"
+        android:hint="@string/email" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/email"
+        android:background="@drawable/textbox_highlight"
+        android:hint="@string/password" />
+
+            <Button
+        android:id="@+id/btn_register"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_gravity="center"
+        android:layout_marginTop="61dp"
+        android:paddingEnd="50dp"
+        android:text="@string/register" />
+
+    <TextView
+        android:id="@+id/Already"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btn_register"
+        android:layout_marginTop="-94dp"
+        android:text="@string/already_registered"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Login_now"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_register"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="-98dp"
+        android:gravity="center"
+        android:paddingEnd="90sp"
+        android:text="@string/login12"
+        android:textColor="@color/material_dynamic_primary70"
+        android:textSize="25sp"
+
+        />
+        </RelativeLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/ProgressBar"
+        android:layout_width="69dp"
+        android:layout_height="67dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

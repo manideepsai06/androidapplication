@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "710803798874",
+    "project_id": "robic-38435",
+    "storage_bucket": "robic-38435.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710803798874:android:4e5719a0b92e95a6505163",
+        "android_client_info": {
+          "package_name": "com.example.internship"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710803798874-n9306uvs7ok43loc1mq2d33vnucb2lci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCebKmCBsLJxsz5XcQ7ORorvIGy2q7dSCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710803798874-n9306uvs7ok43loc1mq2d33vnucb2lci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
